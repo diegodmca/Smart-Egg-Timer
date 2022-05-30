@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		271C5FF0284530AA009A3D52 /* alarm_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 271C5FEF284530AA009A3D52 /* alarm_sound.mp3 */; };
 		27C9C7CA2842A2D000ABAD85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C9C7C92842A2D000ABAD85 /* AppDelegate.swift */; };
 		27C9C7CC2842A2D000ABAD85 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C9C7CB2842A2D000ABAD85 /* SceneDelegate.swift */; };
 		27C9C7CE2842A2D000ABAD85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C9C7CD2842A2D000ABAD85 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		271C5FEF284530AA009A3D52 /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm_sound.mp3; sourceTree = SOURCE_ROOT; };
 		27C9C7C62842A2D000ABAD85 /* Smart Egg Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Egg Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27C9C7C92842A2D000ABAD85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27C9C7CB2842A2D000ABAD85 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				27C9C7D22842A2D300ABAD85 /* Assets.xcassets */,
 				27C9C7D42842A2D300ABAD85 /* LaunchScreen.storyboard */,
 				27C9C7D72842A2D300ABAD85 /* Info.plist */,
+				271C5FEF284530AA009A3D52 /* alarm_sound.mp3 */,
 			);
 			path = "Smart Egg Timer";
 			sourceTree = "<group>";
@@ -127,6 +130,7 @@
 			files = (
 				27C9C7D62842A2D300ABAD85 /* LaunchScreen.storyboard in Resources */,
 				27C9C7D32842A2D300ABAD85 /* Assets.xcassets in Resources */,
+				271C5FF0284530AA009A3D52 /* alarm_sound.mp3 in Resources */,
 				27C9C7D12842A2D000ABAD85 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,6 +296,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -319,6 +324,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
